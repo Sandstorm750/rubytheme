@@ -4,8 +4,8 @@ arr = [2, 4, 6, 8, 10, 12, 14]
 puts arr.to_s
 puts
 
-(90..150).to_a
-puts
+a = (90..150).to_a
+puts a.to_s
 
 months = {"January"=>31, "February" => "28", "March" => "31", "April" => "30", "May" => "31", 
 	"June" => "30", "July" => "31", "August" => "31", "September" => 30, "October" => "31", 
